@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import UserUpdateForm from './UserUpdateForm';
+import './UserList.css';
 
 const UserList = () => {
     const [users, setUsers] = useState([]);
@@ -23,7 +24,7 @@ const UserList = () => {
     }, []);
 
     return (
-        <div>
+        <div className="user-list">
             <h2>User List</h2>
             <ul>
                 {users.map((user) => (
