@@ -1,0 +1,19 @@
+{
+  "name": "user-management-app",
+  "version": "1.0.0",
+  "description": "A full-stack user management application using Node.js and React.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "npx nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
